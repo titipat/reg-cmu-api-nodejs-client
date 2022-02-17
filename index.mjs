@@ -1,6 +1,10 @@
 import 'dotenv/config'
 import got from 'got'
 
+if (!process.env.API_USERNAME || !process.env.API_PASSWORD) {
+    throw new Error('Either process.env.API_USERNAME or process.env.API_PASSWORD are required.')
+}
+
 const trimObj = (obj) => {
     if (obj === null || !Array.isArray(obj) && typeof obj != 'object') return obj;
     return Object.keys(obj).reduce(function (acc, key) {
@@ -16,7 +20,4 @@ const client = got.extend({
     parseJson: text => trimObj(JSON.parse(text))
 })
 
-for (let i = 1; i <= 6; i++) {
-    const result = await client.get(`faculty/0${i}`).json()
-    console.log(result)
-}
+export default client
