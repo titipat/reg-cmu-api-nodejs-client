@@ -10,3 +10,5 @@ for (let i = 1; i <= 6; i++) {
     console.log(result)
 }
 ```
+
+See more examples in `exmaple/`.
