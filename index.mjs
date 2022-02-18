@@ -23,10 +23,10 @@ const client = got.extend({
 
 export default client
 
-export async function getStudents() {
+export async function getStudents(facultyId) {
     const students = await client.get('students?', {
         searchParams: {
-            'where[faculty_id]': '06'
+            'where[faculty_id]': facultyId || '06'
         }
     }).json()
     return students.map(studentTransform)
