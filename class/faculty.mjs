@@ -31,6 +31,8 @@ class Faculty {
        * @property {Function} getStudents Get faculty's students
        * @returns Array of object of students
        * @example
+       * import Faculty from 'reg-cmu-api-nodejs-client/class/faculty.mjs'
+       * 
        * const faculty = new Faculty('06')
        * await faculty.init()
        * const students = await faculty.getStudents()

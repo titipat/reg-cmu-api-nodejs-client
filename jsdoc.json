@@ -1,6 +1,7 @@
 {
     "source": {
         "include": [
+            "README.md",
             "class/faculty.mjs"
         ],
         "includePattern": ".+\\.(m?js(doc|x)?)$"
