@@ -1,0 +1,12 @@
+{
+    "source": {
+        "include": [
+            "class/faculty.mjs"
+        ],
+        "includePattern": ".+\\.(m?js(doc|x)?)$"
+    },
+    "opts": {
+        "destination": "./docs/"
+    },
+    "plugins": []
+}

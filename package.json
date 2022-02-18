@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
+    "jsdoc": "jsdoc -c jsdoc.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,9 +13,13 @@
   "dependencies": {
     "@lifeparticle/ap-style-title-case": "^1.5.0",
     "dotenv": "^16.0.0",
-    "got": "^12.0.1"
+    "got": "^12.0.1",
+    "reg-cmu-api-nodejs-client": "github:titipat/reg-cmu-api-nodejs-client"
   },
   "engines": {
     "node": "16"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.10"
   }
 }
