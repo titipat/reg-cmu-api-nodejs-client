@@ -36,4 +36,4 @@ See more examples in `example/`.
 
 ### Document
 
-Check out the document at https://titipat.net/reg-cmu-api-nodejs-client/.
+Check out the document at [https://titipat.net/reg-cmu-api-nodejs-client/](https://titipat.net/reg-cmu-api-nodejs-client/).
