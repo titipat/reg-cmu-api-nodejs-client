@@ -1,5 +1,7 @@
 # reg-cmu-api-nodejs-client
 
+An unoffical [reg.cmu.ac.th](https://reg.cmu.ac.th) API wrapper.
+
 ## Setup
 
 Specify your given credential in `.env`.
