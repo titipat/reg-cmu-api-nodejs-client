@@ -8,7 +8,7 @@ Specify your given credential in `.env`.
 
 ## Example
 
-### Got wrapper version.
+### Got wrapper version
 
 ```mjs
 import client from 'reg-cmu-api-nodejs-client'
@@ -19,7 +19,7 @@ for (let i = 1; i <= 6; i++) {
 }
 ```
 
-### SDK version.
+### SDK version
 
 ```mjs
 import Faculty from 'reg-cmu-api-nodejs-client/class/faculty.mjs'
@@ -30,4 +30,10 @@ const students = await faculty.getStudents()
 console.log(students[0].id) // Return student's id
 ```
 
-See more examples in `exmaple/`.
+### Example
+
+See more examples in `example/`.
+
+### Document
+
+Check out the document at https://titipat.net/reg-cmu-api-nodejs-client/.
