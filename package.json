@@ -13,8 +13,7 @@
   "dependencies": {
     "@lifeparticle/ap-style-title-case": "^1.5.0",
     "dotenv": "^16.0.0",
-    "got": "^12.0.1",
-    "reg-cmu-api-nodejs-client": "github:titipat/reg-cmu-api-nodejs-client"
+    "got": "^12.0.1"
   },
   "engines": {
     "node": "16"

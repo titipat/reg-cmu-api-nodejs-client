@@ -1,4 +1,4 @@
-import { getStudents } from '../index.mjs'
+import { getStudents } from 'reg-cmu-api-nodejs-client'
 
 const students = await getStudents()
 
