@@ -32,7 +32,7 @@ console.log(students[0].id) // Return student's id
 
 ### Example
 
-See more examples in `example/`.
+See more examples [here](https://github.com/titipat/reg-cmu-api-nodejs-client/tree/main/example).
 
 ### Document
 
